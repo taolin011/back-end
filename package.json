@@ -1,9 +1,9 @@
 {
   "name": "express",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +11,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.17.3"
+    "@faker-js/faker": "^8.0.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   }
 }
